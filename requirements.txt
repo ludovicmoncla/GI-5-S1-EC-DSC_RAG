@@ -6,3 +6,5 @@ numpy
 datasets
 python-dotenv
 google-genai
+requests
+jupyterlab
