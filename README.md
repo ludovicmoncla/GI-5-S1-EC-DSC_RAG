@@ -14,7 +14,7 @@ This lab is organised into three two-hour sessions:
 | --- | --- | --- | --- |
 | Session 1 | Tuesday, December 1, 10:00–12:00 | Room Thorgal | NLP – Supervised lab: Retrieval-Augmented Generation (RAG) |
 | Session 2 | Tuesday, December 8, 10:00–12:00 | Room Thorgal | NLP – Supervised lab: Retrieval-Augmented Generation (RAG) |
-| Session 3 | Tuesday, December 15, 10:00–12:00 | Room Blake & Mortimer | NLP – Supervised lab: Retrieval-Augmented Generation (RAG) |
+| Session 3 | Tuesday, December 15, 10:00–12:00 | Room Flash Gordon | NLP – Supervised lab: Retrieval-Augmented Generation (RAG) |
 
 ### Teamwork
 
