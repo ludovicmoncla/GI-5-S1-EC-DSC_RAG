@@ -104,8 +104,9 @@ The notebooks provide code examples for discovering the key stages of a RAG work
 - [loading and exploring the dataset](./notebooks/1_load_dataset.ipynb);
 - [computing embeddings](./notebooks/2_embeddings.ipynb);
 - [creating and querying a vector database](./notebooks/3_vector_db.ipynb);
-- generating answers with either [LM Studio](./notebooks/4_generation_llm_lmstudio.ipynb) or [Gemini and Gemma](./notebooks/4_generation_llm_gemini.ipynb); and
-- [building an evaluation set and computing RAG metrics](./notebooks/5_evaluation.ipynb).
+- [building an evaluation set and computing RAG metrics](./notebooks/4_evaluation.ipynb); and
+- generating answers with either [LM Studio](./notebooks/5_generation_llm_lmstudio.ipynb) or [Gemini and Gemma](./notebooks/5_generation_llm_gemini.ipynb).
+
 
 These notebooks are starting points, not a complete pipeline or a solution to submit. Run the examples, inspect and modify the code, and make sure you understand the role of each step. Then use the relevant ideas to design and implement your own end-to-end RAG pipeline. You may organize your implementation in one or more notebooks, Python modules, or a combination of both.
 
@@ -131,7 +132,7 @@ The use of LLMs is required for the generation step of your RAG system. Several 
 The first option is to run small local LLMs on your own machine using [LM Studio](https://lmstudio.ai/). LM Studio allows you to run various open-source LLMs locally and provides an OpenAI-compatible API for easy integration.
 
 See the example notebook demonstrating how to query local LLMs through the LM Studio API:
-- [LLM generation with LM Studio](./notebooks/4_generation_llm_lmstudio.ipynb)
+- [LLM generation with LM Studio](./notebooks/5_generation_llm_lmstudio.ipynb)
 
 ### 5.2. Gemini API for Gemini and Gemma Models
 
@@ -143,7 +144,7 @@ To use the API, you need a Google account and an API key from [Google AI Studio]
 
 An example notebook demonstrating how to query Gemini and Gemma models through the Gemini API is provided:
 
-- [LLM generation with Google's Gemini and Gemma models](./notebooks/4_generation_llm_gemini.ipynb)
+- [LLM generation with Google's Gemini and Gemma models](./notebooks/5_generation_llm_gemini.ipynb)
 
 
 ## 6. Evaluation Protocol
@@ -207,7 +208,7 @@ Also include out-of-scope questions—for example, a request for a future failur
 
 Automatic scores are indicators, not a substitute for reading a sample of the answers. Use the same evaluation questions and generation settings when comparing configurations.
 
-The [evaluation notebook](./notebooks/5_evaluation.ipynb) provides a runnable example of the evaluation-set format, Hit@K, Recall@K, MRR@K, lexical F1, embedding similarity, citation checks, abstention accuracy, and a manual scoring grid.
+The [evaluation notebook](./notebooks/4_evaluation.ipynb) provides a minimal runnable example of the evaluation-set format, Hit@K, Recall@K, MRR@K, and embedding similarity.
 
 
 ## 7. Experiments
